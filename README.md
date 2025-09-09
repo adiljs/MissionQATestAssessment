@@ -63,7 +63,10 @@ Run the test scripts defined in each project's `package.json`:
 	npm run test
 	```
 
+
 ## Generating Reports
+
+**Important:** You must run the tests first before generating reports. Reports are created from the test results.
 
 After running tests, generate HTML reports using the report script in each project:
 
