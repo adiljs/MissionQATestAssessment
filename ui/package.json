@@ -1,0 +1,32 @@
+{
+  "name": "missionqatestassessment-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "wdio run wdio.conf.ts --cucumberOpts.tagExpression='@ui'",
+    "report": "ts-node report.ts",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
+    "@wdio/cli": "^9.19.2",
+    "@wdio/cucumber-framework": "^9.19.2",
+    "@wdio/globals": "^9.17.0",
+    "@wdio/local-runner": "^9.19.2",
+    "@wdio/spec-reporter": "^9.19.2",
+    "chromedriver": "^140.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jiti": "^2.5.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "wdio-cucumberjs-json-reporter": "^6.0.1"
+  }
+}

@@ -38,6 +38,9 @@ bower_components
 build/Release
 
 # Dependency directories
+# Ignore generated test reports in both API and UI
+api/reports/
+ui/reports/
 node_modules/
 jspm_packages/
 

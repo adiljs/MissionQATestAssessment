@@ -1,0 +1,2 @@
+# Ignore generated Cucumber HTML report JS assets
+reports/cucumber-html/assets/js/

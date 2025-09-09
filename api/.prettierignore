@@ -1,0 +1,2 @@
+# Ignore generated Cucumber HTML report
+reports/cucumber_report.html
